@@ -1,0 +1,13 @@
+{
+  "name": "one-layer-deeper",
+  "version": "1.0.0",
+  "description": "A Claude skill that moves past surface answers into the insight that actually matters",
+  "keywords": ["claude", "claude-code", "skill", "ai", "reasoning", "depth"],
+  "license": "MIT",
+  "files": [
+    "skills/",
+    "hooks/",
+    "README.md",
+    "CLAUDE.md"
+  ]
+}

@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check skill files have required frontmatter
+        run: |
+          for f in skills/*.md; do
+            if ! grep -q "^name:" "$f"; then
+              echo "Missing 'name' frontmatter in $f"
+              exit 1
+            fi
+            if ! grep -q "^description:" "$f"; then
+              echo "Missing 'description' frontmatter in $f"
+              exit 1
+            fi
+            echo "$f: OK"
+          done

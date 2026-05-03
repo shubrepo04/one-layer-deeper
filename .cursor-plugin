@@ -1,0 +1,8 @@
+{
+  "name": "one-layer-deeper",
+  "version": "1.0.0",
+  "description": "Go beyond the surface answer — a skill for structural and root-cause thinking",
+  "rules": [
+    "skills/one-layer-deeper.md"
+  ]
+}
