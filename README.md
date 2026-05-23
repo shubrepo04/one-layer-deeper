@@ -8,7 +8,7 @@
 
 Most AI responses answer the question asked. But the question asked is often not the question that matters.
 
-**One Layer Deeper** teaches Claude to notice when it's about to give a shallow, obvious, or purely descriptive answer — and instead go to the layer where the response becomes genuinely useful.
+**One Layer Deeper** teaches Claude to notice when it's about to give a shallow, obvious, or purely descriptive answer and instead go to the layer where the response becomes genuinely useful.
 
 It handles:
 - Users solving the wrong problem
@@ -75,7 +75,7 @@ See [`skills/one-layer-deeper.md`](skills/one-layer-deeper.md) for the full prom
 
 **With the skill:**
 > Q: My sales are down. Should I spend more on ads?  
-> A: The direct answer is: maybe. But here's what I'd flag first — spending more on ads to fix declining sales usually accelerates the reveal of an underlying product/market/retention problem. Before increasing ad spend, what's your churn rate looking like? What are customers saying when they leave? The ad spend question answers itself once you know the real diagnosis.
+> A: The direct answer is: maybe. But here's what I'd flag first spending more on ads to fix declining sales usually accelerates the reveal of an underlying product/market/retention problem. Before increasing ad spend, what's your churn rate looking like? What are customers saying when they leave? The ad spend question answers itself once you know the real diagnosis.
 
 ---
 
@@ -96,10 +96,10 @@ See [`skills/one-layer-deeper.md`](skills/one-layer-deeper.md) for the full prom
 The skill is designed to calibrate depth carefully:
 
 - **Too shallow:** Describes what is, doesn't explain why
-- **Target depth:** One layer past obvious — changes what the person would do
+- **Target depth:** One layer past obvious changes what the person would do
 - **Too deep:** Philosophical tangents with no practical landing
 
-The test: *"If this person acts on my answer, will they be better off — or will they just be busy?"*
+The test: *"If this person acts on my answer, will they be better off or will they just be busy?"*
 
 ---
 
